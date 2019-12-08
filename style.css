@@ -1,0 +1,21 @@
+html, body{
+  width:100%;
+  background-image: url("https://github.com/NlCTweb/web/blob/master/orel2.png?raw=true") !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.1) and (max-width: 600px), only screen and (max-width: 600px) and (min-resolution: 97dpi) {
+  html {
+    background-size: auto auto;
+  }
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.lead {
+  margin-top: 20px;
+}
